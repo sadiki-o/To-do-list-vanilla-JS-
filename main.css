@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+  }
+  body{
+    background:#234532;
+    width:100vw;
+    height:100vh;
+  }
+  
+  .inp{
+    width:250px;
+    height:25px;
+    outline-width:0;
+   
+  }
+  h2{
+    color:white;
+    margin-bottom:10px;
+    
+    
+  }
+  .btn{
+    background:aqua;
+    margin-left:-5px;
+    border: none;
+    height:25px;
+    width:80px;
+    border-radius:0 10px 10px 0;
+  }
+  #container{
+    margin:20vh auto 0 auto;
+    min-height: 150px;
+    width: 500px;
+    border: 1px solid white;
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    
+  }
+  
+  #tasks{
+    width:330px;
+    min-height:30px;
+    border:2px solid pink;
+    padding: 10px;
+    color: white;
+  }
+  #inp-div{
+    margin-bottom: 10px;
+  }
+  
+  .fa-trash-alt{
+    color: red;
+    
+  }
+  .fa-check-circle{
+    color: green;
+    margin-left: 7px;
+  }
+  
+  .tas{
+    display: flex;
+  }
+  i:hover{
+    cursor: pointer;
+  }
+  .task_name{
+    width: 85%;
+    position: relative;
+    word-wrap: break-word
+  }
